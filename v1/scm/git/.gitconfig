@@ -1,0 +1,15 @@
+[merge]
+	summery = true
+	tool = "p4merge"
+[mergetool "p4merge"]
+	cmd = /c/a_dev/toolsBundle/v1/p4merge/p4merge \
+		"$PWD/$BASE" \
+			"$PWD/$LOCAL" \
+			"$PWD/$REMOTE" \
+			"$PWD/$MERGED"
+	keepBackup = false
+		trustExitCode = false
+
+[user]
+	name = Mark Haskamp
+	email = mark.haskamp@pinnsg.com
