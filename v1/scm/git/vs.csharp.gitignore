@@ -1,0 +1,9 @@
+
+# .gitignore sample for a Silverlight app
+TwitterSearchMonitor.4.5.resharper.user
+_ReSharper.TwitterSearchMonitor
+TwitterSearchMonitor/Bin
+TwitterSearchMonitor/obj
+TwitterSearchMonitor.Web/bin
+TwitterSearchMonitor.Web/obj
+*.suo
